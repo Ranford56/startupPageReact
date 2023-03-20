@@ -1,12 +1,14 @@
 import React from "react";
 import Greeting from "./modules/greeting/greeting";
+import Input from "./modules/input/input";
 import "./css/style.css";
 import "bootstrap/dist/css/bootstrap.css";
 
 const App = () => {
   return (
-    <div className="d-flex align-items-center vh-100">
+    <div className="main-container">
       <Greeting></Greeting>
+      <Input></Input>
     </div>
   );
 };

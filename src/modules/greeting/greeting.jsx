@@ -4,7 +4,7 @@ import Hello from "./hello";
 
 const Greeting = () => {
   return (
-    <div className="offset-2 col-8">
+    <div className="time">
       <Hello></Hello>
       <Time></Time>
     </div>
